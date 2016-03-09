@@ -27,12 +27,6 @@
                     android:layout_gravity="center"
                     android:padding="16dp" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:background="@drawable/photo_background_protection"
-                    android:id="@+id/imageFrame" />
-
             </FrameLayout>
 
             <com.example.xyzreader.ui.MaxWidthLinearLayout
@@ -65,7 +59,7 @@
                         android:layout_height="wrap_content"
                         android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
                         android:fontFamily="sans-serif-condensed"
-                        android:textColor="#fff"
+                        android:textColor="@color/theme_black"
                         android:textStyle="bold"
                         android:textSize="@dimen/detail_title_text_size"
                         android:lineSpacingMultiplier="0.9"
@@ -74,9 +68,9 @@
                     <TextView
                         android:id="@+id/article_byline"
                         style="?android:attr/textAppearanceSmall"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#8fff"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textColor="@color/theme_black"
                         android:background="#b2ff59" />
                 </LinearLayout>
 
@@ -88,12 +82,20 @@
                     android:layout_marginLeft="@dimen/detail_inner_horiz_margin"
                     android:layout_marginRight="@dimen/detail_inner_horiz_margin"
                     android:paddingBottom="@dimen/detail_body_bottom_margin"
-                    android:textColor="@color/ltgray"
+                    android:textColor="@color/theme_black"
                     android:textColorLink="@color/theme_accent"
                     android:textSize="@dimen/detail_body_text_size"
                     android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier" />
 
             </com.example.xyzreader.ui.MaxWidthLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:background="@drawable/photo_background_protection"
+                android:id="@+id/imageFrame"
+                android:layout_gravity="center"
+                android:visibility="invisible" />
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
