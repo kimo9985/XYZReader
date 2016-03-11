@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:ns1="http://schemas.android.com/tools">
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -47,6 +47,11 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="drkgreen">#64dd17</color>
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
+    <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
@@ -194,9 +199,9 @@
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/dimens.xml -->
     <eat-comment/>
-    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
-    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/macro_layout.xml -->
     <eat-comment/>
     <dimen name="list_side_margin">4dp</dimen>
@@ -1382,10 +1387,11 @@
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+        <item name="android:colorPrimary" ns1:targetApi="lollipop">@color/drkgreen</item>
     </style>
     <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor" ns1:targetApi="lollipop">@android:color/transparent
+        </item>
     </style>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
