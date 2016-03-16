@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -122,10 +121,10 @@ public class ArticleDetailFragment extends Fragment implements
 //            }
 //        });
 
-//        mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
+          mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
 //        mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
 
-        mStatusBarColorDrawable = new ColorDrawable(0);
+//        mStatusBarColorDrawable = new ColorDrawable(0);
 
         mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -138,38 +137,38 @@ public class ArticleDetailFragment extends Fragment implements
         });
 
         bindViews();
-        updateStatusBar();
+//        updateStatusBar();
         return mRootView;
     }
 
-    private void updateStatusBar() {
-        int color = 0;
-        if (mPhotoView != null && mTopInset != 0 && mScrollY > 0) {
-            float f = progress(mScrollY,
-                    mStatusBarFullOpacityBottom - mTopInset * 3,
-                    mStatusBarFullOpacityBottom - mTopInset);
-            color = Color.argb((int) (255 * f),
-                    (int) (Color.red(mMutedColor) * 0.9),
-                    (int) (Color.green(mMutedColor) * 0.9),
-                    (int) (Color.blue(mMutedColor) * 0.9));
-        }
-        mStatusBarColorDrawable.setColor(color);
-        mDrawInsetsFrameLayout.setInsetBackground(mStatusBarColorDrawable);
-    }
+//    private void updateStatusBar() {
+//        int color = 0;
+//        if (mPhotoView != null && mTopInset != 0 && mScrollY > 0) {
+//            float f = progress(mScrollY,
+//                    mStatusBarFullOpacityBottom - mTopInset * 3,
+//                    mStatusBarFullOpacityBottom - mTopInset);
+//            color = Color.argb((int) (255 * f),
+//                    (int) (Color.red(mMutedColor) * 0.9),
+//                    (int) (Color.green(mMutedColor) * 0.9),
+//                    (int) (Color.blue(mMutedColor) * 0.9));
+//        }
+//        mStatusBarColorDrawable.setColor(color);
+//        mDrawInsetsFrameLayout.setInsetBackground(mStatusBarColorDrawable);
+//    }
 
-    static float progress(float v, float min, float max) {
-        return constrain((v - min) / (max - min), 0, 1);
-    }
+//    static float progress(float v, float min, float max) {
+//        return constrain((v - min) / (max - min), 0, 1);
+//    }
 
-    static float constrain(float val, float min, float max) {
-        if (val < min) {
-            return min;
-        } else if (val > max) {
-            return max;
-        } else {
-            return val;
-        }
-    }
+//    static float constrain(float val, float min, float max) {
+//        if (val < min) {
+//            return min;
+//        } else if (val > max) {
+//            return max;
+//        } else {
+//            return val;
+//        }
+//    }
 
     private void bindViews() {
         if (mRootView == null) {
@@ -207,7 +206,7 @@ public class ArticleDetailFragment extends Fragment implements
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
 //                                mRootView.findViewById(R.id.meta_bar)
 //                                        .setBackgroundColor(mMutedColor);
-                                updateStatusBar();
+//                                updateStatusBar();
                             }
                         }
 
