@@ -2165,9 +2165,9 @@ containing a value of this type.
         public static final int always=0x7f0a002b;
         public static final int appbar=0x7f0a006d;
         public static final int article_body=0x7f0a0073;
-        public static final int article_byline=0x7f0a0072;
+        public static final int article_byline=0x7f0a0071;
         public static final int article_subtitle=0x7f0a0078;
-        public static final int article_title=0x7f0a0071;
+        public static final int article_title=0x7f0a0070;
         public static final int beginning=0x7f0a0029;
         public static final int bottom=0x7f0a001a;
         public static final int buttonPanel=0x7f0a004d;
@@ -2183,7 +2183,8 @@ containing a value of this type.
         public static final int contentPanel=0x7f0a0048;
         public static final int custom=0x7f0a004c;
         public static final int customPanel=0x7f0a004b;
-        public static final int cv=0x7f0a0070;
+        public static final int cv1=0x7f0a006e;
+        public static final int cv2=0x7f0a0072;
         public static final int decor_content_parent=0x7f0a0055;
         public static final int default_activity_button=0x7f0a0040;
         public static final int dialog=0x7f0a0030;
@@ -2218,14 +2219,13 @@ containing a value of this type.
         public static final int middle=0x7f0a002a;
         public static final int mini=0x7f0a0028;
         public static final int multiply=0x7f0a0035;
-        public static final int nestedScrollView=0x7f0a006f;
         public static final int never=0x7f0a002e;
         public static final int none=0x7f0a000f;
         public static final int normal=0x7f0a000b;
         public static final int pager=0x7f0a0067;
         public static final int parallax=0x7f0a0018;
         public static final int parentPanel=0x7f0a0044;
-        public static final int photo=0x7f0a006e;
+        public static final int photo=0x7f0a006f;
         public static final int pin=0x7f0a0019;
         public static final int progress_circular=0x7f0a0005;
         public static final int progress_horizontal=0x7f0a0006;

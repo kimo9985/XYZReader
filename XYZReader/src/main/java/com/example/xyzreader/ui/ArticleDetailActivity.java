@@ -28,7 +28,7 @@ public class ArticleDetailActivity extends ActionBarActivity
     private Cursor mCursor;
     private long mStartId;
 
-//    private long mSelectedItemId;
+    private long mSelectedItemId;
 //    private int mSelectedItemUpButtonFloor = Integer.MAX_VALUE;
 //    private int mTopInset;
 
@@ -57,13 +57,13 @@ public class ArticleDetailActivity extends ActionBarActivity
         mPager.setPageMarginDrawable(new ColorDrawable(0x22000000));
 
         mPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
-            @Override
-            public void onPageScrollStateChanged(int state) {
-                super.onPageScrollStateChanged(state);
+//            @Override
+//            public void onPageScrollStateChanged(int state) {
+//                super.onPageScrollStateChanged(state);
 //                mUpButton.animate()
 //                        .alpha((state == ViewPager.SCROLL_STATE_IDLE) ? 1f : 0f)
 //                        .setDuration(300);
-            }
+//            }
 
             @Override
             public void onPageSelected(int position) {
@@ -159,7 +159,7 @@ public class ArticleDetailActivity extends ActionBarActivity
         @Override
         public void setPrimaryItem(ViewGroup container, int position, Object object) {
             super.setPrimaryItem(container, position, object);
-            ArticleDetailFragment fragment = (ArticleDetailFragment) object;
+//            ArticleDetailFragment fragment = (ArticleDetailFragment) object;
 //            if (fragment != null) {
 //                mSelectedItemUpButtonFloor = fragment.getUpButtonFloor();
 //                updateUpButtonPosition();
