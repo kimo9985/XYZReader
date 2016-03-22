@@ -17,11 +17,12 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/ltgreen" />
+            android:background="@color/drkgreen" />
 
         <android.support.v7.widget.CardView
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
@@ -61,11 +62,8 @@
                 android:gravity="center"
                 android:id="@+id/article_byline" />
 
-
         </LinearLayout>
-
         </android.support.v7.widget.CardView>
-
 
             <android.support.v7.widget.CardView
                 android:layout_height="wrap_content"
@@ -77,38 +75,39 @@
                 android:background="#ccff90"
                 android:id="@+id/cv2">
 
-
-
                 <ScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:fillViewport="true" >
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    style="?android:attr/textAppearanceSmall"
-                    android:textColor="@color/theme_black"
-                    android:id="@+id/article_body" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/theme_black"
+                            android:id="@+id/article_body" />
 
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:text="blank space"
+                             android:textSize="56dp"
+                             android:visibility="invisible" />
 
+                    </LinearLayout>
                 </ScrollView>
             </android.support.v7.widget.CardView>
-
-
     </android.support.design.widget.AppBarLayout>
 
-
-
-
-
-
-
-
-
     <android.support.design.widget.FloatingActionButton
-        android:layout_height="56dp"
-        android:layout_width="56dp"
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:layout_margin="16dp"
         android:id="@+id/share_fab"
         android:clickable="true"
         android:src="@drawable/ic_share"
