@@ -250,6 +250,10 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="elevation_high">12dp</dimen>
+    <dimen name="elevation_low">9dp</dimen>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="fab_border_width">0.5dp</dimen>
@@ -294,6 +298,15 @@
     <dimen name="snackbar_padding_vertical">14dp</dimen>
     <dimen name="snackbar_padding_vertical_2lines">24dp</dimen>
     <dimen name="snackbar_text_size">14sp</dimen>
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <eat-comment/>
     <dimen name="tab_max_width">264dp</dimen>
     <dimen name="tab_min_width">72dp</dimen>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
@@ -1311,6 +1324,18 @@
     </style>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:src">@drawable/ic_share</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
     </style>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
