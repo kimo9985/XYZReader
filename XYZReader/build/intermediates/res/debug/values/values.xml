@@ -16,6 +16,13 @@
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/macro_layout.xml -->
     <eat-comment/>
     <bool name="detail_is_card">false</bool>
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="A100_green">#CCFF90</color>
+    <color name="A200_green">#B2FF59</color>
+    <color name="A400_green">#76FF03</color>
+    <color name="A700_green">#64DD17</color>
+    <color name="A900_green">#33691E</color>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
@@ -48,9 +55,6 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="drkgreen">#64dd17</color>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="error_color">#FFDD2C00</color>
@@ -69,7 +73,6 @@
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="ltgray">#ffe0e0e0</color>
-    <color name="ltgreen">#b2ff59</color>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -216,7 +219,7 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="appbar_elevation">4dp</dimen>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/res/values/values.xml -->
@@ -224,6 +227,9 @@
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="cardview_elevation">2dp</dimen>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/macro_layout.xml -->
     <eat-comment/>
     <dimen name="detail_body_bottom_margin">88dp</dimen>
@@ -1594,11 +1600,11 @@
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:colorPrimary" ns1:targetApi="lollipop">@color/drkgreen</item>
+        <item name="colorPrimary">@color/A200_green</item>
+        <item name="colorPrimaryDark">@color/A900_green</item>
     </style>
     <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor" ns1:targetApi="lollipop">@android:color/transparent
-        </item>
+        <item name="android:statusBarColor" ns1:targetApi="lollipop">@android:color/transparent</item>
     </style>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>

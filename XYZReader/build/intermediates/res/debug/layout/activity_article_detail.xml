@@ -8,10 +8,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
+
+
+
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 
 </android.support.design.widget.CoordinatorLayout>
 <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/layout/activity_article_detail.xml -->

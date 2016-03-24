@@ -12,18 +12,24 @@
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/ltgreen"
+        android:background="@color/A200_green"
+        app:elevation="@dimen/appbar_elevation"
         android:fitsSystemWindows="true" >
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/toolbar2"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/drkgreen" />
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            android:fitsSystemWindows="true"
+            android:background="@color/A700_green" />
 
         <android.support.v7.widget.CardView
+            android:id="@+id/cv1"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            app:cardElevation="@dimen/cardview_elevation"
             android:layout_marginTop="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
@@ -31,10 +37,7 @@
             app:cardCornerRadius="32dp"
             app:contentPaddingLeft="16dp"
             app:contentPaddingRight="16dp"
-            app:contentPaddingBottom="8dp"
-            android:background="#ccff90"
-            android:id="@+id/cv1"
-            android:elevation="2dp">
+            app:contentPaddingBottom="8dp" >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -68,14 +71,15 @@
         </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/cv2"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
+                app:cardElevation="@dimen/cardview_elevation"
                 app:contentPaddingLeft="16dp"
                 app:contentPaddingRight="16dp"
                 app:contentPaddingTop="16dp"
                 app:contentPaddingBottom="8dp"
-                android:background="#ccff90"
-                android:id="@+id/cv2">
+                android:background="#ccff90" >
 
                 <ScrollView
                     android:layout_width="match_parent"
@@ -98,7 +102,7 @@
                              android:layout_width="match_parent"
                              android:layout_height="wrap_content"
                              android:text="blank space"
-                             android:textSize="56dp"
+                             android:textSize="40dp"
                              android:visibility="invisible" />
 
                     </LinearLayout>

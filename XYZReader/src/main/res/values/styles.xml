@@ -20,16 +20,13 @@
     <style
         name="Theme.Bacon"
         parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:colorPrimary"
-            tools:targetApi="lollipop">@color/drkgreen</item>
+        <item name="colorPrimary">@color/A200_green</item>
+        <item name="colorPrimaryDark">@color/A900_green</item>
     </style>
 
-    <style
-        name="Theme.Bacon.Detail">
-        <item
-            name="android:statusBarColor"
-            tools:targetApi="lollipop">@android:color/transparent
-        </item>
+    <style name="Theme.Bacon.Detail">
+        <item name="android:statusBarColor"
+            tools:targetApi="lollipop">@android:color/transparent</item>
     </style>
 
     <style name="FabStyle">
