@@ -9,7 +9,9 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.ShareCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
+import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.format.DateUtils;
 import android.text.method.LinkMovementMethod;
@@ -120,6 +122,13 @@ public class ArticleDetailFragment extends Fragment implements
 //            }
 //        });
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
+
+        //http://stackoverflow.com/questions/26998455/how-to-get-toolbar-from-fragment//
+        Toolbar toolbar = (Toolbar) mRootView.findViewById(R.id.toolbar2);
+        AppCompatActivity appCompatActivity = (AppCompatActivity) getActivity();
+        appCompatActivity.setSupportActionBar(toolbar);
+        appCompatActivity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 //        mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
 
 //        mStatusBarColorDrawable = new ColorDrawable(0);
