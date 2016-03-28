@@ -32,9 +32,6 @@
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
-
-
-
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             android:layout_gravity="bottom">
@@ -43,16 +40,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/logo"
-                android:contentDescription="@string/app_name" />
+                android:contentDescription="@string/image_view" />
 
         </android.support.v7.widget.Toolbar>
     </FrameLayout>
-
 </FrameLayout>
-
-    <!--
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            android:layout_marginLeft="@dimen/list_toolbar_side_margin"
-            android:layout_marginRight="@dimen/list_toolbar_side_margin"
-
-    -->

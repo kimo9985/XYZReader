@@ -362,9 +362,9 @@ public final class R {
 		public static final int dialog_fixed_width_minor = 0x7f08004e;
 		public static final int disabled_alpha_material_dark = 0x7f08004f;
 		public static final int disabled_alpha_material_light = 0x7f080050;
-		public static final int notification_large_icon_height = 0x7f080064;
-		public static final int notification_large_icon_width = 0x7f080065;
-		public static final int notification_subtext_size = 0x7f080066;
+		public static final int notification_large_icon_height = 0x7f080066;
+		public static final int notification_large_icon_width = 0x7f080067;
+		public static final int notification_subtext_size = 0x7f080068;
 	}
 	public static final class drawable {
 		public static final int abc_ab_share_pack_mtrl_alpha = 0x7f020000;
@@ -586,7 +586,7 @@ public final class R {
 		public static final int abc_shareactionprovider_share_with = 0x7f0c000e;
 		public static final int abc_shareactionprovider_share_with_application = 0x7f0c000f;
 		public static final int abc_toolbar_collapse_description = 0x7f0c0010;
-		public static final int status_bar_notification_info_overflow = 0x7f0c0016;
+		public static final int status_bar_notification_info_overflow = 0x7f0c0017;
 	}
 	public static final class style {
 		public static final int AlertDialog_AppCompat = 0x7f0d0000;

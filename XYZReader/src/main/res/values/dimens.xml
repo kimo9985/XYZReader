@@ -10,6 +10,8 @@
 
     <dimen name="appbar_elevation">4dp</dimen>
     <dimen name="cardview_elevation">2dp</dimen>
+    <dimen name="layout_margin_4dp">4dp</dimen>
+    <dimen name="layout_margin_8dp">8dp</dimen>
 
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="spacing_xsmall">2dp</dimen>

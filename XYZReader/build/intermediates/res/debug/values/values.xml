@@ -274,6 +274,10 @@
     <dimen name="fab_size_mini">40dp</dimen>
     <dimen name="fab_size_normal">56dp</dimen>
     <dimen name="fab_translation_z_pressed">6dp</dimen>
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="layout_margin_4dp">4dp</dimen>
+    <dimen name="layout_margin_8dp">8dp</dimen>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/macro_layout.xml -->
     <eat-comment/>
     <dimen name="list_side_margin">4dp</dimen>
@@ -376,6 +380,9 @@
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="image_view">Image</string>
     <!-- From: file:/C:/Users/Kimo/AndroidStudioProjects/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
