@@ -100,7 +100,6 @@ public class ArticleDetailFragment extends Fragment implements
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
 
-        //http://stackoverflow.com/questions/26998455/how-to-get-toolbar-from-fragment//
         Toolbar toolbar = (Toolbar) mRootView.findViewById(R.id.toolbar2);
         AppCompatActivity appCompatActivity = (AppCompatActivity) getActivity();
         appCompatActivity.setSupportActionBar(toolbar);
